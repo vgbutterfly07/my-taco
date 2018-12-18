@@ -1,0 +1,59 @@
+* text=auto
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.c            text
+*.c++          text
+*.cc           text
+*.cpp          text
+*.cs           diff=csharp
+*.css          text
+*.cxx          text
+*.df           text
+*.h            text
+*.h++          text
+*.hh           text
+*.hpp          text
+*.htm          text
+*.html         text
+*.java         text
+*.js           text
+*.json         text
+*.jsp          text
+*.jspf         text
+*.jspx         text
+*.properties   text
+*.sh           text
+*.tag          text
+*.tagx         text
+*.tld          text
+*.txt          text
+*.xml          text
+*.yml          text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.a            binary
+*.app          binary
+*.class        binary
+*.dll          binary
+*.dylib        binary
+*.ear          binary
+*.exe          binary
+*.gch          binary
+*.gif          binary
+*.ico          binary
+*.jar          binary
+*.jpeg         binary
+*.jpg          binary
+*.la           binary
+*.lai          binary
+*.lib          binary
+*.lo           binary
+*.o            binary
+*.obj          binary
+*.out          binary
+*.pch          binary
+*.png          binary
+*.slo          binary
+*.so           binary
+*.war          binary
