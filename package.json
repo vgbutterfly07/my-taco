@@ -1,0 +1,7 @@
+{
+  "name": "www.my-taco.com",
+  "description": "Minimal package.json for www.my-taco.com",
+  "version": "0.0.1",
+  "devDependencies": {
+  }
+}
