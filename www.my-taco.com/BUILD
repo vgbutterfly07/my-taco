@@ -4,11 +4,12 @@ nodejs_binary(
     name = "www.my-taco.com",
     data = glob([
         "index.html",
-        "js/*.js",
         "css/*.css",
         "fonts/**/*",
         "img/**/*",
-    ]),
+    ]) + [
+        "//www.my-taco.com/js",
+    ],
     entry_point = "index.html",
 )
 
